@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .d-container {
   top: 50%;
   left: 50%;
@@ -11,15 +12,18 @@
   transform: translate(-50%, -50%);
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 h1 {
   font-size: 35px;
   margin-bottom: 10px;
 }
+
 p {
   font-size: 22px;
   margin-bottom: 10px;
   color: rgb(77, 77, 77);
 }
+
 .shape {
   /* top: 50%; */
   left: 50%;
@@ -27,12 +31,15 @@ p {
   text-align: center;
   transform: translate(-50%, 0%);
 }
+
 .d-buttons {
   padding: 10px 0px 10px 0px;
 }
+
 .add-margin {
   margin-top: 110px;
 }
+
 .buttons-t,
 .buttons-s,
 .buttons-r,
@@ -45,49 +52,60 @@ p {
   margin: 2px;
   padding: 6px;
 }
+
 .buttons-c {
   color: rgb(238, 238, 238);
   background-color: #51c4d3;
 }
+
 .buttons-s {
   color: rgb(238, 238, 238);
   background-color: #126e82;
 }
+
 .buttons-t {
   color: rgb(238, 238, 238);
   background-color: #2b4f60;
 }
+
 .buttons-r {
   color: rgb(238, 238, 238);
   background-color: #194350;
 }
+
 .buttons-c:hover {
   color: rgb(238, 238, 238);
   background-color: #44aab8;
 }
+
 .buttons-s:hover {
   color: rgb(238, 238, 238);
   background-color: #0f5969;
 }
+
 .buttons-t:hover {
   color: rgb(238, 238, 238);
   background-color: #264553;
 }
+
 .buttons-r:hover {
   color: rgb(238, 238, 238);
   background-color: #153641;
 }
+
 .circle {
   width: 100px;
   height: 100px;
   background: #51c4d3;
   border-radius: 50%;
 }
+
 .square {
   width: 100px;
   height: 100px;
   background: #126e82;
 }
+
 .triangle {
   width: 0;
   height: 0;
@@ -95,6 +113,7 @@ p {
   border-right: 50px solid transparent;
   border-bottom: 100px solid #2b4f60;
 }
+
 .rectangle {
   width: 200px;
   height: 100px;
